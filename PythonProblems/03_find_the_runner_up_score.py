@@ -1,0 +1,5 @@
+n = int(input())
+arr = map(int, input().split())
+numbers = list(sorted(set(arr)))
+max_number = max(numbers)
+print(numbers[-2])
